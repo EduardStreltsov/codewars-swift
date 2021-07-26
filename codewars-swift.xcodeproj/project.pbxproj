@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BB8776A504DDD58940B9CC /* kyu6_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8D98C990449318EAC102 /* kyu6_TwoSum.swift */; };
+		42BB87E6249E884A910F4666 /* kyu6_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8D98C990449318EAC102 /* kyu6_TwoSum.swift */; };
 		42BB8DC73EF93FACC07F443B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 42BB82B45EA0329FF8ED9C25 /* .gitignore */; };
 		73090ED226A6D95500C87254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090ED126A6D95500C87254 /* AppDelegate.swift */; };
 		73090ED426A6D95500C87254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090ED326A6D95500C87254 /* SceneDelegate.swift */; };
@@ -19,6 +21,7 @@
 		73090F0226A6D98600C87254 /* kyu7_TriangularTreasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090F0126A6D98600C87254 /* kyu7_TriangularTreasure.swift */; };
 		73090F0426A6DAD800C87254 /* kyu7_TriangularTreasureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090F0326A6DAD800C87254 /* kyu7_TriangularTreasureTest.swift */; };
 		73090F0526A6E94A00C87254 /* kyu7_TriangularTreasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090F0126A6D98600C87254 /* kyu7_TriangularTreasure.swift */; };
+		73857F6E26AF314300752D1A /* kyu6_TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73857F6D26AF314300752D1A /* kyu6_TwoSumTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		42BB82B45EA0329FF8ED9C25 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		42BB8D98C990449318EAC102 /* kyu6_TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kyu6_TwoSum.swift; sourceTree = "<group>"; };
 		73090ECE26A6D95500C87254 /* codewars-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codewars-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73090ED126A6D95500C87254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73090ED326A6D95500C87254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		73090EF526A6D95800C87254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73090F0126A6D98600C87254 /* kyu7_TriangularTreasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kyu7_TriangularTreasure.swift; sourceTree = "<group>"; };
 		73090F0326A6DAD800C87254 /* kyu7_TriangularTreasureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kyu7_TriangularTreasureTest.swift; sourceTree = "<group>"; };
+		73857F6D26AF314300752D1A /* kyu6_TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kyu6_TwoSumTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,7 @@
 				73090EDF26A6D95800C87254 /* Info.plist */,
 				73090ED926A6D95700C87254 /* Preview Content */,
 				73090F0126A6D98600C87254 /* kyu7_TriangularTreasure.swift */,
+				42BB8D98C990449318EAC102 /* kyu6_TwoSum.swift */,
 			);
 			path = "codewars-swift";
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 		73090EE726A6D95800C87254 /* codewars-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				73857F6D26AF314300752D1A /* kyu6_TwoSumTest.swift */,
 				73090F0326A6DAD800C87254 /* kyu7_TriangularTreasureTest.swift */,
 				73090EE826A6D95800C87254 /* codewars_swiftTests.swift */,
 				73090EEA26A6D95800C87254 /* Info.plist */,
@@ -281,6 +288,7 @@
 				73090ED426A6D95500C87254 /* SceneDelegate.swift in Sources */,
 				73090ED626A6D95500C87254 /* ContentView.swift in Sources */,
 				73090F0226A6D98600C87254 /* kyu7_TriangularTreasure.swift in Sources */,
+				42BB8776A504DDD58940B9CC /* kyu6_TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73857F6E26AF314300752D1A /* kyu6_TwoSumTest.swift in Sources */,
 				73090F0526A6E94A00C87254 /* kyu7_TriangularTreasure.swift in Sources */,
 				73090EE926A6D95800C87254 /* codewars_swiftTests.swift in Sources */,
 				73090F0426A6DAD800C87254 /* kyu7_TriangularTreasureTest.swift in Sources */,
+				42BB87E6249E884A910F4666 /* kyu6_TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.benzotopor.codewars-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.benzotopor.codewars-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
