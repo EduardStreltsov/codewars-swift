@@ -11,6 +11,7 @@
 		42BB829B213C0B783853CCD9 /* kuy8_arrayLazyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8324CBE398ADFAEB499C /* kuy8_arrayLazyTest.swift */; };
 		42BB8776A504DDD58940B9CC /* kyu6_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8D98C990449318EAC102 /* kyu6_TwoSum.swift */; };
 		42BB87E6249E884A910F4666 /* kyu6_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8D98C990449318EAC102 /* kyu6_TwoSum.swift */; };
+		42BB8A1ED66F56F0F621FE3D /* kuy6_PrimorialOfANumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB806690FF3DAA7621CE1D /* kuy6_PrimorialOfANumber.swift */; };
 		42BB8DC73EF93FACC07F443B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 42BB82B45EA0329FF8ED9C25 /* .gitignore */; };
 		73090ED226A6D95500C87254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090ED126A6D95500C87254 /* AppDelegate.swift */; };
 		73090ED426A6D95500C87254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090ED326A6D95500C87254 /* SceneDelegate.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42BB806690FF3DAA7621CE1D /* kuy6_PrimorialOfANumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuy6_PrimorialOfANumber.swift; sourceTree = "<group>"; };
 		42BB82B45EA0329FF8ED9C25 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		42BB8324CBE398ADFAEB499C /* kuy8_arrayLazyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuy8_arrayLazyTest.swift; sourceTree = "<group>"; };
 		42BB8A77CB9B548E47877846 /* kuy8_arrayFunctionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuy8_arrayFunctionsTest.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				73090EEA26A6D95800C87254 /* Info.plist */,
 				42BB8A77CB9B548E47877846 /* kuy8_arrayFunctionsTest.swift */,
 				42BB8324CBE398ADFAEB499C /* kuy8_arrayLazyTest.swift */,
+				42BB806690FF3DAA7621CE1D /* kuy6_PrimorialOfANumber.swift */,
 			);
 			path = "codewars-swiftTests";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				42BB87E6249E884A910F4666 /* kyu6_TwoSum.swift in Sources */,
 				42BB8240B7477E8154734FB4 /* kuy8_arrayFunctionsTest.swift in Sources */,
 				42BB829B213C0B783853CCD9 /* kuy8_arrayLazyTest.swift in Sources */,
+				42BB8A1ED66F56F0F621FE3D /* kuy6_PrimorialOfANumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
