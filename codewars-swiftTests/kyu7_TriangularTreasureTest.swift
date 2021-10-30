@@ -1,38 +1,41 @@
-//
-//  kyu7_TriangularTreasureTest.swift
-//  codewars-swiftTests
-//
-//  Created by Eduard Streltsov on 20.07.2021.
-//
+/*
+Triangular numbers are so called because of the equilateral
+ triangular shape that they occupy when laid out as dots. i.e.
+
+1st (1)   2nd (3)    3rd (6)
+    *          **        ***
+    *         **
+    *
+    You need to return the nth triangular number.
+     You should return 0 for out of range values:
+
+For example: (Input --> Output)
+
+0 --> 0
+2 --> 3
+3 --> 6
+-10 --> 0
+*/
 
 import XCTest
 
 class kyu7_TriangularTreasureTest: XCTestCase {
 	
-	override func setUpWithError() throws {
-		// Put setup code here. This method is called before the invocation of each test method in the class.
-	}
-	
-	override func tearDownWithError() throws {
-		// Put teardown code here. This method is called after the invocation of each test method in the class.
+	func triangular(_ n: Int) -> Int {
+		if n <= 0 { return 0 }
+		var result = 0
+		for i in (1 ... n) {
+			result = result + i
+		}
+		return result
 	}
 	
 	func testExample() throws {
-		XCTAssertEqual(TriangularTreasure.triangular(0), 0)
-		XCTAssertEqual(TriangularTreasure.triangular(-1), 0)
-		XCTAssertEqual(TriangularTreasure.triangular(1), 1)
-		XCTAssertEqual(TriangularTreasure.triangular(2), 3)
-		XCTAssertEqual(TriangularTreasure.triangular(3), 6)
-		
-		// This is an example of a functional test case.
-		// Use XCTAssert and related functions to verify your tests produce the correct results.
-	}
-	
-	func testPerformanceExample() throws {
-		// This is an example of a performance test case.
-		self.measure {
-			// Put the code you want to measure the time of here.
-		}
+		XCTAssertEqual(triangular(0), 0)
+		XCTAssertEqual(triangular(-1), 0)
+		XCTAssertEqual(triangular(1), 1)
+		XCTAssertEqual(triangular(2), 3)
+		XCTAssertEqual(triangular(3), 6)
 	}
 	
 }
