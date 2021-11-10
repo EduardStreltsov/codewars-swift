@@ -12,6 +12,7 @@
 		42BB8A1ED66F56F0F621FE3D /* kuy6_PrimorialOfANumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB806690FF3DAA7621CE1D /* kuy6_PrimorialOfANumber.swift */; };
 		42BB8A3CB32271896DC47428 /* kyu6_DuplicateEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8C4A50AAEBCA81DEF311 /* kyu6_DuplicateEncoder.swift */; };
 		42BB8C58B5F64D7A3F0CBC60 /* kyu6_LinkedListFromAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB80DE4A0217B70B2AEAAC /* kyu6_LinkedListFromAString.swift */; };
+		42BB8DC42A55B40A869FF71C /* kuy6_FindTheOddInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB8E778AC19C84AB378820 /* kuy6_FindTheOddInt.swift */; };
 		42BB8DC73EF93FACC07F443B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 42BB82B45EA0329FF8ED9C25 /* .gitignore */; };
 		42BB8E99984293B202FDAEAA /* kuy6_FindTheParityOutlier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB82B44F67CD72740CB30B /* kuy6_FindTheParityOutlier.swift */; };
 		73090ED226A6D95500C87254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090ED126A6D95500C87254 /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 		42BB8324CBE398ADFAEB499C /* kuy8_arrayLazyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuy8_arrayLazyTest.swift; sourceTree = "<group>"; };
 		42BB8A77CB9B548E47877846 /* kuy8_arrayFunctionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuy8_arrayFunctionsTest.swift; sourceTree = "<group>"; };
 		42BB8C4A50AAEBCA81DEF311 /* kyu6_DuplicateEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kyu6_DuplicateEncoder.swift; sourceTree = "<group>"; };
+		42BB8E778AC19C84AB378820 /* kuy6_FindTheOddInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuy6_FindTheOddInt.swift; sourceTree = "<group>"; };
 		73090ECE26A6D95500C87254 /* codewars-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codewars-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73090ED126A6D95500C87254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73090ED326A6D95500C87254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				42BB80DE4A0217B70B2AEAAC /* kyu6_LinkedListFromAString.swift */,
 				42BB8C4A50AAEBCA81DEF311 /* kyu6_DuplicateEncoder.swift */,
 				42BB82B44F67CD72740CB30B /* kuy6_FindTheParityOutlier.swift */,
+				42BB8E778AC19C84AB378820 /* kuy6_FindTheOddInt.swift */,
 			);
 			path = "codewars-swiftTests";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				42BB8C58B5F64D7A3F0CBC60 /* kyu6_LinkedListFromAString.swift in Sources */,
 				42BB8A3CB32271896DC47428 /* kyu6_DuplicateEncoder.swift in Sources */,
 				42BB8E99984293B202FDAEAA /* kuy6_FindTheParityOutlier.swift in Sources */,
+				42BB8DC42A55B40A869FF71C /* kuy6_FindTheOddInt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
